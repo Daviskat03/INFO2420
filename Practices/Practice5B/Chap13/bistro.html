@@ -4,18 +4,35 @@
 <head>
 <meta charset="utf-8">
 <title>Black Goose Bistro Summer Menu</title>
-<link href='http://fonts.googleapis.com/css?family=Marko+One' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Marko+One" rel="stylesheet" type="text/css">
+	
 <style>
+	
 body {
+  background-color: #d2dc9d;
+  /*background-image: url("images/bullseye.png");
+  background-position: center 200px;*/
+  background-image: url("images/blackgoose.png");
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  background-attachment: fixed;
   font-family: Georgia, serif;
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
+  
+	
 }
+	
 #header {
   margin-top: 0;
   padding: 3em 1em 2em 1em;
   text-align: center;
+  background-color: rgba(255,255,255,.5);
+  background-image: url("images/purpledot.png");
+  background-repeat: repeat-x;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 a {
@@ -23,10 +40,12 @@ a {
 }
 
 h1 {
+  color: #939;
   font: bold 1.5em Georgia, serif;
   text-shadow: .1em .1em .2em gray;
 }
 h2 {
+  color: #c60;
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .5em;
@@ -58,6 +77,29 @@ p.warning, sup {
   font-variant: small-caps;
   font-style: normal;
 }
+	a:link {
+		color: #939;
+	}
+	
+	a:visited {
+		color: #937393;
+	}
+	
+	a:focus {
+		background-color: #fff;
+		color: #c700f2;
+	}
+	
+	a:hover {
+		background-color: #fff;
+		color: #c700f2;
+	}
+	
+	a:active {
+		color: #ff00ff;
+		background-color: #fff;
+	}
+	
 
 h2 + p {
   text-align: center;
@@ -71,6 +113,7 @@ h2 + p {
 <body>
 
 <div id="header">
+
 <h1>Black Goose Bistro &bull; Summer Menu</h1>
 
 <div id="info">
@@ -139,7 +182,7 @@ h2 + p {
 
 <div id="dessert">
 <h2>Dessert Selection</h2>
-<p>Be sure to save room for our desserts, made daily by our own <a href="http://www.jwu.edu/college.aspx?id=19510">Johnson & Wales</a> trained pastry chef.</p>
+<p>Be sure to save room for our desserts, made daily by our own <a href="http://www.jwu.edu/college.aspx?id=19510">Johnson &amp; Wales</a> trained pastry chef.</p>
 
 <dl>
 <dt class="newitem">Lemon chiffon cake &mdash; <strong>new item!</strong></dt>
@@ -151,6 +194,10 @@ h2 + p {
 </div>
 
 <p class="warning"><sup>*</sup> We are required to warn you that undercooked food is a health risk.</p>
+	
+<p>
+  <a href="../../../index.html">Return Home</a>
+</p>
 
 </body>
 </html>
