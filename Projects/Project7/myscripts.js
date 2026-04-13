@@ -6,19 +6,19 @@ var Logo1 = new Image();
 var Logo2 = new Image();
 
 if (document.images) {
-  PrintButton1.src = "Images/Print1.jpg";
-  PrintButton2.src = "Images/Print2.jpg";
-  Logo1.src = "Images/Logo1.png";
-  Logo2.src = "Images/Logo2.png";
+  PrintButton1.src = "images/Print1.jpg";
+  PrintButton2.src = "images/Print2.jpg";
+  Logo1.src = "images/Logo1.png";
+  Logo2.src = "images/Logo2.png";
 }
 
-var imgPath = "Images/FullSize/";
+var imgPath = "images/FullSize/";
 
 var imgArray = [
-  "Image1lg.jpg",
-  "Image2lg.jpg",
-  "Image3lg.jpg",
-  "Image4lg.jpg"
+  "image1lg.jpg",
+  "image2lg.jpg",
+  "image3lg.jpg",
+  "image4lg.jpg"
 ];
 
 var titleArray = [

@@ -6,7 +6,7 @@
 
 body {
   background-color: #c8dcf5;
-  background-image: url("Images/passportStampStockImg.png");
+  background-image: url("images/passportStampStockImg.png");
   background-blend-mode: lighten;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -64,7 +64,7 @@ header {
 
 section {
   width: 900px;
-  background-image: url("Images/2colback.png");
+  background-image: url("images/2colback.png");
   background-repeat: repeat-y;
   overflow: hidden;
   clear: both;
