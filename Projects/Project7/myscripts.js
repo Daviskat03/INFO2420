@@ -15,10 +15,10 @@ if (document.images) {
 var imgPath = "images/FullSize/";
 
 var imgArray = [
-  "image1lg.jpg",
-  "image2lg.jpg",
-  "image3lg.jpg",
-  "image4lg.jpg"
+  "image1Lg.jpg",
+  "image2Lg.jpg",
+  "image3Lg.jpg",
+  "image4Lg.jpg"
 ];
 
 var titleArray = [
