@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c8dcf5;
+  background-image: url("Images/passportStampStockImg.png");
+  background-blend-mode: lighten;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: #1F2933;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  font-size: 100%;
+  line-height: 1.75;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+.contentBox {
+  background-color: #d8ecff;
+  border: 2px solid #4f79a8;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+header {
+  width: 900px;
+  height: 200px;
+  background-color: #E0F2FE;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+  width: 170px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+#logo img {
+  display: block;
+  width: 133px;
+  height: 126px;
+}
+
+#banner {
+  float: left;
+  width: 680px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#banner img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+section {
+  width: 900px;
+  background-image: url("Images/2colback.png");
+  background-repeat: repeat-y;
+  overflow: hidden;
+  clear: both;
+}
+
+nav {
+  float: left;
+  width: 250px;
+  padding: 20px 10px;
+}
+
+nav a {
+  display: block;
+  width: 180px;
+  margin: 0 auto 10px auto;
+  padding: 15px;
+  background-color: #5FA8D3;   /* lighter blue */
+  color: #FFFFFF; 
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #B7B7B7;
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+nav a:hover {
+  background-color: #1D3557;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+article {
+  float: right;
+  width: 650px;
+  padding: 15px 20px 20px 20px;
+}
+
+h1 {
+  color: #102A43;
+  font-size: 45px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+h2 {
+  color: #1D3557;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: 2em 0 0.6em;
+}
+
+p {
+  color: #102A43;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  color: #2D6A4F;
+  font-size: 1.05em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 1.8em 0 0.4em;
+  text-align: left;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #2A6F97;
+  margin: 2em 0;
+  padding-bottom: 6px;
+}
+
+/* Link states */
+a:link {
+  color: #1D4ED8;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #6A4C93;
+}
+
+a:hover {
+  color: #0B2D4A;
+  text-decoration: underline;
+  background-color: #E0F2FE;
+}
+
+a:focus {
+  outline: 2px solid #1D4ED8;
+}
+
+a:active {
+  color: #2D6A4F;
+}
+
+/* Image float classes */
+img.float-left {
+  float: left;
+  margin: 0 16px 12px 0;
+}
+
+img.float-right {
+  float: right;
+  margin: 0 0 12px 16px;
+}
+
+/* Adventure table */
+.adventureTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0 auto 1.2em;
+  font-size: 0.95em;
+  color: #1F2933;
+}
+
+/* Caption styling */
+.adventureTable caption {
+  caption-side: top;
+  text-align: center;
+  font-weight: bold;
+  color: #1D3557;
+  background-color: #E0F2FE;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Remove default borders */
+.adventureTable,
+.adventureTable th,
+.adventureTable td {
+  border: none;
+}
+
+/* Heading cells */
+.adventureTable th {
+  background-color: #2A6F97;
+  color: #F4F8F6;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Data cells */
+.adventureTable td {
+  background-color: #F4F8F6;
+  color: #1F2933;
+  padding: 12px;
+  vertical-align: top;
+  box-shadow: inset 0 0 0 2px #C7D2FE;
+}
+
+/* stripe rows for readability */
+.adventureTable tr:nth-child(even) td {
+  background-color: #EEF6FF;
+}
+
+/* center the Tour Length column */
+.adventureTable td:nth-child(2) {
+  text-align: center;
+  white-space: nowrap;
+}
+
+#thumbs, #image {
+	width: 100%;
+    text-align: center;
+    margin: 0 auto;
+	color: #000;
+	}
+#thumbs {
+	width: 100%;
+	text-align: center;
+	margin: 15px 0;
+}
+
+			
+#thumbs img {
+	width: 140px;
+	height: auto;
+	margin: 5px;
+	border: 1px solid #333333;
+}
+
+#image{
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+}
+#image img {
+  max-width: 500px;
+  height: auto;
+}
+
+#bottomText {
+  text-align: center;
+  margin-top: 10px;
+  color: #102A43;
+}
+
+.instructions{
+	font-style:italic;
+}
