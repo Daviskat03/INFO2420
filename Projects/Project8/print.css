@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* Print style sheet */
+
+* {
+  box-sizing: border-box;
+  background: white;
+  color: black;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: Baskerville, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container,
+header,
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: white;
+  height: auto;
+}
+
+nav {
+  display: none;
+}
+
+article {
+  width: 95%;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+footer {
+  display: none;
+}
+
+#logo,
+#banner,
+.contentBox,
+img.float-left,
+img.float-right {
+  float: none;
+}
+
+#logo,
+#banner {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+section {
+  background: white;
+  overflow: visible;
+}
+
+h1, h2, h3, p, ul, li, td, th, caption {
+  color: black;
+  background: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.adventureTable,
+.adventureTable th,
+.adventureTable td {
+  background: white;
+  color: black;
+  box-shadow: none;
+}
