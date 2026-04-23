@@ -17,7 +17,7 @@
 
     <header>
       
-        <a href="../index.htm" onmouseover="document.logo.src=Logo2.src;" onmouseout="document.logo.src=Logo1.src;">
+        <a href="../index.html" onmouseover="document.logo.src=Logo2.src;" onmouseout="document.logo.src=Logo1.src;">
           <img src="../images/Logo1.png" name="logo" alt="Extreme Honeymoons logo" class="float-left">
         </a>
  
